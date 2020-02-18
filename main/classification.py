@@ -7,7 +7,7 @@ from itertools import islice
 import os
 
 from sklearn.externals import joblib
-from sklearn.externals.joblib.parallel import Parallel, delayed
+from joblib import Parallel, delayed
 
 import settings
 import ntpath

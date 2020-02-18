@@ -1,6 +1,6 @@
 import random
 
-from sklearn.externals.joblib.parallel import Parallel, delayed
+from joblib import Parallel, delayed
 
 import settings
 from data_processing.data import Workspace, GroupedDataSet

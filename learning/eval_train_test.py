@@ -7,7 +7,7 @@ from collections import defaultdict
 import numpy
 from sklearn import preprocessing
 from sklearn.ensemble.forest import RandomForestClassifier
-from sklearn.externals.joblib.parallel import Parallel, delayed
+from joblib import Parallel, delayed
 from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.model_selection import StratifiedKFold, GridSearchCV, LeaveOneGroupOut, cross_val_score
 from sklearn.svm import SVC

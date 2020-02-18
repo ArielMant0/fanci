@@ -4,7 +4,7 @@ from os import walk
 
 import pickle
 
-from sklearn.externals.joblib.parallel import Parallel, delayed
+from joblib import Parallel, delayed
 
 import settings
 from data_processing import data
@@ -154,6 +154,7 @@ class SVMClassifier(Clf):
             self.clf = svm.SVC(**params)
         else:
             self.clf = svm.SVC(**self.param_map[DGA_TYPE_MAP[dga]])
+        print(self.clf)
         self.std_scale = preprocessing.StandardScaler()
         self.clf_type = 'svm'
 
@@ -183,6 +184,8 @@ class SVMClassifier(Clf):
         log.info('Starting prediction of {!s} samples'.format(len(test)))
 
         feature_matrix = self.std_scale.transform(feature_matrix)
+        print(self.clf)
+        self.clf.break_ties = False
         prediction = self.clf.predict(feature_matrix)
         if labels is not None:
             return labels, prediction

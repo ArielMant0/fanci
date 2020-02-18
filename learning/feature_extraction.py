@@ -4,7 +4,7 @@ from collections import defaultdict, Counter
 
 import numpy
 from scipy import stats
-from sklearn.externals.joblib.parallel import Parallel, delayed
+from joblib import Parallel, delayed
 from sklearn.feature_extraction.text import CountVectorizer
 
 from data_processing.data import PublicSuffixes

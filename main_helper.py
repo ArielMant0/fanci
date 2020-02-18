@@ -3,7 +3,7 @@ import sys
 from timeit import Timer
 
 from os.path import expanduser
-from sklearn.externals.joblib.parallel import Parallel, delayed
+from joblib import Parallel, delayed
 
 import settings
 from data_processing import data
