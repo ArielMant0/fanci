@@ -3,105 +3,105 @@ channels:
 - anaconda-fusion
 - defaults
 dependencies:
-- bleach=1.5.0
-- chest=0.2.3
-- click=6.7
-- cloudpickle=0.2.2
-- cycler=0.10.0
-- cytoolz=0.8.2
-- dask=0.14.1
-- datashape=0.5.4
-- decorator=4.0.11
-- entrypoints=0.2.2
-- flask-cors=3.0.2
-- h5py=2.7.0
-- hdf5=1.8.17
-- heapdict=1.0.0
-- html5lib=0.999
-- ipython=6.0.0
-- ipython_genutils=0.2.0
-- itsdangerous=0.24
-- jedi=0.10.2
-- jinja2=2.9.6
-- jsonschema=2.6.0
-- jupyter_client=5.0.1
-- jupyter_core=4.3.0
-- locket=0.2.0
-- markupsafe=0.23
-- mistune=0.7.4
-- multipledispatch=0.4.9
-- nbconvert=5.1.1
-- nbformat=4.3.0
-- networkx=1.11
-- nltk=3.2.2
-- numexpr=2.6.2
-- numpy=1.12.1
-- openssl=1.0.2k
+- bleach
+- chest
+- click
+- cloudpickle
+- cycler
+- cytoolz
+- dask
+- datashape
+- decorator
+- entrypoints
+- flask-cors
+- h5py
+- hdf5
+- heapdict
+- html5lib
+- ipython
+- ipython_genutils
+- itsdangerous
+- jedi
+- jinja2
+- jsonschema
+- jupyter_client
+- jupyter_core
+- locket
+- markupsafe
+- mistune
+- multipledispatch
+- nbconvert
+- nbformat
+- networkx
+- nltk
+- numexpr
+- numpy
+- opensslk
 - pandas=0.20.2
-- pandocfilters=1.4.1
-- partd=0.3.7
-- path.py=10.3.1
-- pexpect=4.2.1
-- pickleshare=0.7.4
-- pip=9.0.1
-- prompt_toolkit=1.0.14
-- psutil=5.2.2
-- pygments=2.2.0
-- pyqt=5.6.0
-- pytables=3.3.0
-- python=3.6.1
-- python-dateutil=2.6.0
-- pytz=2017.2
-- pyyaml=3.12
-- pyzmq=16.0.2
-- qt=5.6.2
-- requests=2.13.0
-- setuptools=27.2.0
-- simplegeneric=0.8.1
-- sip=4.18
-- six=1.10.0
-- sqlite=3.13.0
-- testpath=0.3
-- toolz=0.8.2
-- tornado=4.5.1
-- traitlets=4.3.2
-- wcwidth=0.1.7
-- wheel=0.29.0
+- pandocfilters
+- partd
+- path.py
+- pexpect
+- pickleshare
+- pip
+- prompt_toolkit
+- psutil
+- pygments
+- pyqt
+- pytables
+- python
+- python-dateutil
+- pytz
+- pyyaml
+- pyzmq
+- qt
+- requests
+- setuptools
+- simplegeneric
+- sip
+- six
+- sqlite
+- testpath
+- toolz
+- tornado
+- traitlets
+- wcwidth
+- wheel
 - xz
-- yaml=0.1.6
+- yaml
 - zlib
 - pip:
-  - blaze=0.10.1
-  - bokeh=0.12.4
-  - curl=7.52.1
-  - flask=0.12.1
-  - freetype=2.5.5
-  - icu=54.1
-  - ipython-genutils==0.2.0
-  - jupyter-client==5.0.1
-  - jupyter-core==4.3.0
-  - libpng=1.6.27
-  - llvmlite=0.17.0
-  - logbook==1.0.0
-  - lxml==3.7.3
-  - matplotlib=2.0.0
-  - mkl=2017.0.1
-  - numba=0.32.0
-  - odo=0.5.0
-  - prompt-toolkit==1.0.14
-  - ptyprocess=0.5.1
-  - py==1.4.33
-  - pyparsing=2.1.4
-  - pyshark==0.3.7.5
-  - readline=6.2
-  - scikit-learn=0.18.1
-  - scipy=0.19.0
-  - suffix-trees==0.2.3
-  - sqlalchemy=1.1.9
-  - tables==3.3.0
-  - terminado=0.6
-  - tk=8.5.18
-  - trollius==1.0.4
-  - werkzeug=0.12.1
+  - blaze
+  - bokeh
+  - curl
+  - flask
+  - freetype
+  - icu
+  - ipython-genutils
+  - jupyter-client
+  - jupyter-core
+  - libpng
+  - llvmlite
+  - logbook
+  - lxml
+  - matplotlib
+  - mkl
+  - numba
+  - odo
+  - prompt-toolkit
+  - ptyprocess
+  - py
+  - pyparsing
+  - pyshark.5
+  - readline
+  - scikit-learn==0.18.1
+  - scipy
+  - suffix-trees
+  - sqlalchemy
+  - tables
+  - terminado
+  - tk
+  - trollius
+  - werkzeug
 prefix: /Users/samuel/bin/anaconda/envs/master_thesis
 

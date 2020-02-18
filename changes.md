@@ -1,0 +1,5 @@
+- python 3.5
+- pandas 0.20.2
+- scikit-learn 0.18.1
+- numpy 1.12
+- tk 8.5

@@ -184,8 +184,6 @@ class SVMClassifier(Clf):
         log.info('Starting prediction of {!s} samples'.format(len(test)))
 
         feature_matrix = self.std_scale.transform(feature_matrix)
-        print(self.clf)
-        self.clf.break_ties = False
         prediction = self.clf.predict(feature_matrix)
         if labels is not None:
             return labels, prediction
